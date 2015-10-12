@@ -1,0 +1,19 @@
+# vim: set syntax=yaml ts=2 sw=2 sts=2 et :
+
+package-name:       qubes-mgmt-salt-dom0-template-upgrade
+name:               template-upgrade-formula
+top_level_dir:      template-upgrade-formula
+formula-files:      README.rst LICENSE template-upgrade
+pillar-files:       
+test-formula-files: 
+test-pillar-files: 
+formula_root:       /srv/formulas
+saltenv:            dom0
+version:            3.0.0
+release:            1
+os:                 Qubes
+os_family:          RedHat
+summary:            Upgrades an existing template to a new distro version
+description: |
+  Upgrades an existing template to a new distro version.
+  Examples would be upgrading from Fedora 20 to Fedora 21.
